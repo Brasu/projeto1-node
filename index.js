@@ -2,7 +2,7 @@ const express = require("express"); //importa o módulo express neste arquivo
 const app = express(); //iniciando o express
 
 app.get("/", function(req, res) {
-    res.send("<h1>Bem vindo ao meu site! TESTE</h1>");
+    res.send("<h1>Bem viSTE</h1>");
 })
 
 app.get("/produtos", function(req, res) {
