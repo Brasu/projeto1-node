@@ -16,7 +16,7 @@ app.get("/consulta/:parametro", function(req, res) {
 app.get("/cadastro/{:nome}", function(req, res) {
     var nome = req.params.nome;
     if (nome) {
-        res.send("<h1>Produtfhsdgfjsfo " + nome + " criado!</h1>");
+        res.send("<h1>Produto " + nome + " criado!</h1>");
     } else {
         res.send("Produto criado!");
     }
